@@ -1,8 +1,12 @@
+/// <reference types="vite/client" />
+
 /**
  * Error tracking wrapper.
  * In production, replace with Sentry integration.
  * Never log PII, API keys, or auth tokens.
  */
+
+import type React from 'react'
 
 interface ErrorContext {
   component?: string
