@@ -877,24 +877,30 @@ export default function CallFirstHomepage(): JSX.Element {
 
       {/* ── FOOTER ───────────────────────────────── */}
       <footer
-        className="py-12 px-6"
-        style={{ borderTop: '1px solid rgba(255,255,255,0.05)' }}
-      >
-        <div className="mx-auto max-w-[1200px] flex justify-between items-center flex-wrap gap-4">
-          <div>
-            <div className="font-heading text-xl font-bold mb-1.5">
-              <span className="text-slate-100">Call</span>
-              <span className="text-brand-500">First</span>
-            </div>
-            <div className="text-[13px] text-slate-600">
-              AI-powered lead generation for UK businesses.
-            </div>
-          </div>
-          <div className="text-[13px] text-slate-600">
-            © {new Date().getFullYear()} CallFirst. All rights reserved.
-          </div>
-        </div>
-      </footer>
+  className="py-12 px-6"
+  style={{ borderTop: '1px solid rgba(255,255,255,0.05)' }}
+>
+  <div className="mx-auto max-w-[1200px] flex justify-between items-center flex-wrap gap-4">
+    <div>
+      <div className="font-heading text-xl font-bold mb-1.5">
+        <span className="text-slate-100">Call</span>
+        <span className="text-brand-500">First</span>
+      </div>
+      <div className="text-[13px] text-slate-600">
+        AI-powered lead generation for UK businesses.
+      </div>
+    </div>
+    <div className="flex flex-col items-end gap-2">
+      <div className="flex gap-4 text-[13px]">
+        <a href="/privacy.html" className="text-slate-500 hover:text-slate-300 transition-colors">Privacy Policy</a>
+        <a href="/terms.html" className="text-slate-500 hover:text-slate-300 transition-colors">Terms of Service</a>
+      </div>
+      <div className="text-[13px] text-slate-600">
+        © {new Date().getFullYear()} CallFirst. All rights reserved.
+      </div>
+    </div>
+  </div>
+</footer>
     </>
   )
 }
