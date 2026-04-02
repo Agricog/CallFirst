@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet-async'
 import CallFirstHomepage from '@/components/CallFirstHomepage'
 import { STRUCTURED_DATA } from '@/data/content'
 
-const PAGE_TITLE = 'CallFirst | AI Lead Generation for UK Trades & Local Businesses'
+const PAGE_TITLE = 'CallFirst | Never Miss a Lead Again | UK Trades'
 const PAGE_DESCRIPTION =
   'AI-powered lead generation that responds to your customers in 60 seconds. Exclusive territory. No ad spend. One trade, one area, yours forever. From £199/month.'
 const CANONICAL_URL = 'https://callfirst.co.uk'
